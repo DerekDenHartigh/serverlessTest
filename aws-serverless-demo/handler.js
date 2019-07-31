@@ -1,9 +1,8 @@
 'use strict';
 
-require('dotenv').config({ path: './variables.env' });
-
-const connectToDatabase = require('./db.js');
 const Note = require('./notes.model.js');
+const connectToDatabase = require('./db');
+require('dotenv').config({ path: './variables.env' });
 
 module.exports.hello = (event, context, callback) => {
 	console.log('Hello World');
