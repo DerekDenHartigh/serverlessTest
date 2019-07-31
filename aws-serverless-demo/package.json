@@ -1,0 +1,17 @@
+{
+  "name": "aws-serverless-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "mongoose": "^5.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
