@@ -1,6 +1,7 @@
 'use strict';
 
 const connectToDatabase = require('./db');
+const Note = require('./notes.model.js');
 
 module.exports.hello = (event, context, callback) => {
 	console.log('Hello World');
