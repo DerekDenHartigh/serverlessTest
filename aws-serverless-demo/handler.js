@@ -2,7 +2,7 @@
 
 require('dotenv').config({ path: './variables.env' });
 
-const connectToDatabase = require('./db');
+const connectToDatabase = require('./db.js');
 const Note = require('./notes.model.js');
 
 module.exports.hello = (event, context, callback) => {
